@@ -1,6 +1,0 @@
----
-identity: "AP1"
-ssid: "AP-1"
-key: "some_wifi_key"
-frequency: "2437"
-txpower: "14"

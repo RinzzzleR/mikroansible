@@ -1,3 +1,0 @@
----
-- name: Disable wifi keepalive frames  
-  command: bash -c "cat roles/wifi-keepalive-disable/files/wifi-keepalive-disable.rsc | ssh -T {{inventory_hostname}} -p {{ansible_ssh_port}}"  

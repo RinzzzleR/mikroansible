@@ -1,3 +1,0 @@
----
-- name: Set MSK Timezone
-  command: bash -c "cat roles/timezone-moscow/files/set_timezone.rsc | ssh -T {{inventory_hostname}} -p {{ansible_ssh_port}}"  

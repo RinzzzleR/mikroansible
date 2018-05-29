@@ -1,3 +1,0 @@
----
-- name: Disable SOCKS
-  command: bash -c "cat roles/socks-disable/files/socks.rsc | ssh -T {{inventory_hostname}} -p {{ansible_ssh_port}}"  
