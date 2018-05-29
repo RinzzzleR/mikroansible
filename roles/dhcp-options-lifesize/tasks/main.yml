@@ -1,3 +1,0 @@
----
-- name: Set LifeSize DHCP Options
-  command: bash -c "cat roles/dhcp-options-lifesize/files/dhcp-options-lifesize.rsc | ssh -T {{inventory_hostname}} -p {{ansible_ssh_port}}"  
