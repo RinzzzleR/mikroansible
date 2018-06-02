@@ -2,6 +2,8 @@
 192.168.45.254
 
 [ADD-to-Ansible]
-10.32.69.254
+192.168.45.253
 
-[TT]
+[allhosts:children]
+init
+ADD-to-Ansible
